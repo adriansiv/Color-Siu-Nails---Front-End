@@ -1,0 +1,20 @@
+.social-media-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.308);
+    bottom: 0;
+}
+
+.social-media-container i {
+    font-size: 250%;
+    padding: 1% 2.5% 1% 2.5%;
+    color: white;
+}
+.social-media-container i:hover {
+    color: rgba(0, 0, 0, 0.472);
+    transition: 850ms;
+    color: black;
+    transform: translateY(-5px);
+}

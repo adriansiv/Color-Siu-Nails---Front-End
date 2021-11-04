@@ -1,0 +1,31 @@
+.services-container {
+    margin: 10% 0% 10% 0%;
+    justify-content: center;
+}
+.services-card-container {
+    background-color: black;
+}
+.hr-container {
+    display: flex;
+    flex-direction: row;
+}
+.hr-container h2 {
+    width: 20%;
+    text-align: center;
+}
+.hr-container hr {
+    border-top: 1px dashed black;
+    width: 40%;
+}
+
+@media (max-width: 640px) {
+    .services-container {
+        margin-top: 25%;
+    }
+    .hr-container hr {
+        display: none;
+    }
+    .hr-container h2 {
+        margin-left: 35%;
+    }
+}
