@@ -84,10 +84,10 @@ function Gallery() {
 
 
     return (
-        <>
+        <div className="gallery-container">
             <Slider img={HandsImg}/>
             <GalleryCard data={dataImg}/>
-        </>
+        </div>
     )
 }
 

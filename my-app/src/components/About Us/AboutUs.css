@@ -1,8 +1,13 @@
+/* CONTAINER */
+
 .about-us-container {
-    padding-top: 10%;
+    padding-top: 5%;
+    background-color: #5bc9b717;
 }
+
+/* ABOUT US TEXT */
 .about-us-text-container {
-    padding: 5% 12.5% 5% 12.5%;
+    padding: 5% 12.5% 0% 12.5%;
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -26,6 +31,12 @@
     width: 50%;
     padding: 2%;
 }
+
+/* ABOUT US VISION */
+
+.about-us-vision-container {
+    background-color: #ffffff;
+}
 .about-us-vision {
     padding: 5% 12.5% 5% 12.5%;
     width: 75%
@@ -38,7 +49,10 @@
 }
 
 
-@media (max-width: 640px) {
+@media screen and (max-width: 640px) {
+    .about-us-container{
+        padding-top: 10%;
+    }
     .about-us-text-container {
         padding-top:15%;
         flex-direction: column;
@@ -48,5 +62,6 @@
     }
     .about-us-text-container img {
         width: 100%;
+        margin-bottom: 15%;
     }
 }

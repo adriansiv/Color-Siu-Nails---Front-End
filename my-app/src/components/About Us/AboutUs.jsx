@@ -15,9 +15,11 @@ function AboutUs() {
                     </div>
                     <img src={working} alt="working"/>
                 </div>
-                <div className="about-us-vision">
-                    <h1>Visión:</h1>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero nisi voluptate iure sit aliquam a tempora mollitia, harum ad at repudiandae officia deleniti sint dolore, sunt culpa quis debitis architecto?</p>
+                <div className="about-us-vision-container">
+                    <div className="about-us-vision">
+                        <h1>Visión:</h1>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero nisi voluptate iure sit aliquam a tempora mollitia, harum ad at repudiandae officia deleniti sint dolore, sunt culpa quis debitis architecto?</p>
+                    </div>
                 </div>
             </div>
         </>

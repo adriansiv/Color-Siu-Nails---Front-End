@@ -1,0 +1,79 @@
+.contact-container {
+    margin-top: 15%;
+    font-size: larger;
+}
+
+/* MAP */
+.map-style {
+    width: 80%;
+    height: 600px;
+    padding-left: 20%;
+}
+
+/* FORMS */
+form {
+    display: flex;
+    flex-direction: column;
+    padding: 2% 20% 2% 20%;
+}
+form label {
+    margin-bottom: 2%;
+}
+form label input {
+    border-radius: 10px;
+    padding: 1%;
+}
+
+#nameAndSurname {
+    width: 100%;
+}
+.email-phoneNumber-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#email {
+    width: 25em;
+}
+#phoneNumber {
+    width: 25em;
+}
+#message {
+    width: 100%;
+    padding-bottom: 60px;
+}
+#radio-input-contact {
+    margin-right: 2%;
+}
+
+#submit-btn {
+    background-color: #afdfd685;
+    color:#2C93A3;
+    padding: 1%;
+    border-radius: 20px;
+}
+#submit-btn:hover {
+    background-color: #AFDFD5;
+    transition: 1000ms;
+}
+
+@media screen and (max-width: 640px) {
+    .map-style {
+        width: 90%;
+        height: 600px;
+        padding-left: 10%;
+    }
+    .contact-container {
+        margin-top: 25%;
+        font-size: larger;
+    }
+    .email-phoneNumber-div {
+        flex-direction: column;
+    }
+    #email {
+        width: 100%;
+    }
+    #phoneNumber {
+        width: 100%;
+    }
+}
