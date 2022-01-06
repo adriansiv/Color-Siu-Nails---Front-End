@@ -9,19 +9,19 @@ const Navbar = () => {
         <div className='navbar-container'>
             <img src={logo} alt="logo" className='logo'/>
             <ul className='menu-navbar'>
-                <Link className="menu-navbar-elements" to="/nosotros">
+                <Link className="menu-navbar-elements" to="/aboutus">
                     <li>Nosotros</li>
                 </Link>
-                <Link className="menu-navbar-elements" to="/servicios">
+                <Link className="menu-navbar-elements" to="/services">
                     <li>Servicios</li>
                 </Link>
-                <Link className="menu-navbar-elements" to="/galeria">
+                <Link className="menu-navbar-elements" to="/gallery">
                     <li>Galería</li>
                 </Link>
-                <Link className="menu-navbar-elements" to="/contacto">
+                <Link className="menu-navbar-elements" to="/contact">
                     <li>Contacto</li>
                 </Link>
-                <Link className="menu-navbar-elements" to="/reserva">
+                <Link className="menu-navbar-elements" to="/booking">
                     <li>Reserva</li>
                 </Link>
             </ul>

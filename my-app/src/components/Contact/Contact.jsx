@@ -1,4 +1,5 @@
-import React, {useState} from 'react';
+import React, {useState, useEffect} from 'react';
+import contactRequest from '../Request/ContactRequest';
 import './Contact.css';
 
 const initialState = {
@@ -8,7 +9,7 @@ const initialState = {
     message: "",
 };
 
-function Contact() {
+const Contact = () => {
 
     const [contactData, setContactData] = useState(initialState);
 
@@ -21,11 +22,12 @@ function Contact() {
 
     const handlerSubmit = (e) => {
         e.preventDefault();
-        console.log(contactData);
         setContactData(initialState);
+        contactRequest(contactData);
+        console.log(contactData);
         alert("Hemos recibido tu mensaje.");
     }
-
+    
     return (
         <div className="contact-container">
             <div className="map-container">

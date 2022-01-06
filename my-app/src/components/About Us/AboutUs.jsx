@@ -1,5 +1,5 @@
-import React from 'react'
-import './AboutUs.css'
+import React from 'react';
+import './AboutUs.css';
 
 import working from '../../img/IMG_5773.jpg';
 

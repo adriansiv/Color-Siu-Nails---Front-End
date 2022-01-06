@@ -22,11 +22,11 @@ const AppRouter = () => {
         <Router>
             <Navbar />
                 <Switch>
-                    <Route exact path="/nosotros" component={AboutUs}/>
-                    <Route exact path="/servicios" component={Services}/>
-                    <Route exact path="/reserva" component={Booking}/>
-                    <Route exact path="/contacto" component={Contact}/>
-                    <Route exact path="/galeria" component={Gallery}/>
+                    <Route exact path="/aboutus" component={AboutUs}/>
+                    <Route exact path="/services" component={Services}/>
+                    <Route exact path="/booking" component={Booking}/>
+                    <Route exact path="/contact" component={Contact}/>
+                    <Route exact path="/gallery" component={Gallery}/>
                 </Switch>
             <Footer />
         </Router>
